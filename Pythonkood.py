@@ -1,6 +1,6 @@
 from random import randint
-arv = randint(1,2)
-if arv == 2:
-    print("Äge.")
+arv = randint(1,10)
+if arv < 9:
+    print("Väga lahe! :)")
 else:
-    print("Mitte äge.")
+    print("ʕ•ᴥ•ʔ")
